@@ -204,3 +204,21 @@ li {
     background: linear-gradient(90deg, #2f6fed, #7aa7ff);
     color: white;
 }
+
+
+.education-list {
+    list-style-image: url("images/bullet-icon.png");
+}
+
+.course-list {
+    list-style-position: outside;
+    list-style-type: decimal-leading-zero;
+}
+
+.link-list {
+    list-style-type: circle;
+}
+
+.link-list li {
+    margin-bottom: 0.4rem;
+}
