@@ -11,3 +11,38 @@ body {
     margin: 0;
     min-height: 100vh;
 }
+
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin: 0 0 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
+
+h2 {
+    border-bottom: 2px solid #1b4db3;
+    color: #1b4db3;
+    font-size: 1.75rem;
+    margin-top: 0;
+    padding-bottom: 0.4rem;
+}
+
+h3 {
+    color: rgb(15, 47, 115);
+    font-size: 1.25rem;
+    font-variant: small-caps;
+    margin: 1.25rem 0 0.5rem;
+}
+
+p {
+    margin: 0 0 1rem;
+}
