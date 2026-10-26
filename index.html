@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Personal profile and contact page of Touseef Ahmed, BS Computer Science graduate and Intern Software Engineering.">
     <meta name="author" content="Touseef Ahmed">
     <link rel="stylesheet" href="style.css">
@@ -123,10 +124,10 @@
             <h2>Useful Links</h2>
 
             <ul class="link-list">
-                <li><a href="https://www.linkedin.com/in/touseefahmed503" target="_blank">LinkedIn profile</a></li>
-                <li><a href="https://github.com/TouseefAhmedexe" target="_blank">GitHub profile</a></li>
-                <li><a href="https://namal.edu.pk" target="_blank">Namal University Mianwali</a></li>
-                <li><a href="mailto:touseefahmed@gmail.com">touseefahmed@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/touseefahmed503" target="_blank" rel="noopener noreferrer">LinkedIn profile</a></li>
+                <li><a href="https://github.com/TouseefAhmedexe" target="_blank" rel="noopener noreferrer">GitHub profile</a></li>
+                <li><a href="https://namal.edu.pk" target="_blank" rel="noopener noreferrer">Namal University Mianwali</a></li>
+                <li><a href="mailto:touseefahmed9119@gmail.com">touseefahmed9119@gmail.com</a></li>
             </ul>
         </section>
 
@@ -135,7 +136,7 @@
 
             <p>Fields marked with * are required.</p>
 
-            <form id="contact-form">
+            <form id="contact-form" action="#" method="post">
 
                 <fieldset>
                     <legend>Your Details</legend>
@@ -147,17 +148,17 @@
 
                     <p>
                         <label for="full-name">Full Name *</label><br>
-                        <input type="text" id="full-name" name="full_name" placeholder="Enter your full name" required>
+                        <input type="text" id="full-name" name="full_name" placeholder="Enter your full name" autocomplete="name" required>
                     </p>
 
                     <p>
                         <label for="email-address">Email Address *</label><br>
-                        <input type="email" id="email-address" name="email_address" placeholder="example@gmail.com" required>
+                        <input type="email" id="email-address" name="email_address" placeholder="example@gmail.com" autocomplete="email" required>
                     </p>
 
                     <p>
                         <label for="preferred-date">Preferred Contact Date *</label><br>
-                        <input type="date" id="preferred-date" name="preferred_date" min="2026-10-26" required>
+                        <input type="date" id="preferred-date" name="preferred_date" min="2026-10-27" required>
                     </p>
 
                     <p>
@@ -169,8 +170,8 @@
                 <fieldset>
                     <legend>Your Preferences</legend>
 
-                    <p>
-                        <span>Gender *</span><br>
+                    <fieldset>
+                        <legend>Gender *</legend>
 
                         <input type="radio" id="gender-male" name="gender" value="male" required>
                         <label for="gender-male">Male</label>
@@ -180,10 +181,10 @@
 
                         <input type="radio" id="gender-other" name="gender" value="other">
                         <label for="gender-other">Other</label>
-                    </p>
+                    </fieldset>
 
-                    <p>
-                        <span>Interests</span><br>
+                    <fieldset>
+                        <legend>Interests</legend>
 
                         <input type="checkbox" id="interest-web" name="interests" value="web-development" checked>
                         <label for="interest-web">Web Development</label>
@@ -193,7 +194,7 @@
 
                         <input type="checkbox" id="interest-cloud" name="interests" value="cloud-and-devops">
                         <label for="interest-cloud">Cloud and DevOps</label>
-                    </p>
+                    </fieldset>
                 </fieldset>
 
                 <fieldset>
@@ -215,8 +216,8 @@
     </main>
 
     <footer id="page-footer">
-        <p>Pakistan | +92 31X-XXXXXXX<small></small></p>
-        <p><small>&copy; 2026 Touseef Ahmed</small></p>
+        <p>Pakistan | +92 312 5691991</p>
+        <p><small>&copy; 2026 Touseef Ahmed. All rights reserved.</small></p>
     </footer>
 
 </body>

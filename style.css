@@ -12,7 +12,6 @@ body {
     min-height: 100vh;
 }
 
-
 h1,
 h2,
 h3 {
@@ -97,6 +96,12 @@ a:active {
     color: #b3261e;
 }
 
+a:focus,
+a:focus-visible {
+    outline: 3px solid #f59e0b;
+    outline-offset: 2px;
+}
+
 a[target="_blank"] {
     font-weight: bold;
 }
@@ -104,7 +109,6 @@ a[target="_blank"] {
 a[href^="mailto"] {
     font-style: italic;
 }
-
 
 #main-navigation {
     background-color: #0f2f73;
@@ -118,7 +122,7 @@ a[href^="mailto"] {
     padding: 0;
 }
 
-#main-navigation li {
+#main-navigation > ul > li {
     display: inline-block;
     margin: 0 0.5rem;
 }
@@ -144,7 +148,6 @@ nav a:active {
     color: white;
 }
 
-
 #main-content {
     margin: 2rem auto;
     max-width: 900px;
@@ -169,7 +172,6 @@ main > section {
     text-align: justify;
 }
 
-
 ul,
 ol {
     margin: 0 0 1rem;
@@ -186,11 +188,6 @@ li {
     padding: 0;
 }
 
-#top-skill {
-    background-color: #fff3cd;
-    border-left-color: #f59e0b;
-}
-
 .skill-item {
     background-color: hsla(220, 80%, 50%, 0.1);
     border-left: 5px solid #2f6fed;
@@ -205,6 +202,15 @@ li {
     color: white;
 }
 
+#top-skill {
+    background-color: #fff3cd;
+    border-left-color: #f59e0b;
+}
+
+.skill-item#top-skill:hover {
+    background: linear-gradient(90deg, #2f6fed, #7aa7ff);
+    color: white;
+}
 
 .education-list {
     list-style-image: url("images/bullet-icon.png");
@@ -223,7 +229,6 @@ li {
     margin-bottom: 0.4rem;
 }
 
-
 #contact-form fieldset {
     border: 2px solid #2f6fed;
     border-radius: 8px;
@@ -237,13 +242,9 @@ li {
     padding: 0 0.5rem;
 }
 
-#contact-form label,
-#contact-form span {
-    font-weight: bold;
-}
-
 #contact-form label {
     cursor: pointer;
+    font-weight: bold;
 }
 
 #contact-form input[type="radio"] + label,
@@ -272,12 +273,22 @@ textarea {
     max-width: 100%;
 }
 
+input:focus,
+input:focus-visible,
+textarea:focus,
+textarea:focus-visible,
+button:focus,
+button:focus-visible {
+    border-color: #1b4db3;
+    outline: 3px solid #f59e0b;
+    outline-offset: 1px;
+}
+
 input[disabled] {
     background-color: #e9edf3;
     cursor: not-allowed;
     opacity: 0.6;
 }
-
 
 button {
     background: linear-gradient(#2f6fed, #1b4db3);
@@ -309,7 +320,6 @@ button[type="reset"] {
 button[type="reset"]:hover {
     background: #e8f0fe;
 }
-
 
 #page-footer {
     background: radial-gradient(circle, #2f6fed, #0f2f73);
