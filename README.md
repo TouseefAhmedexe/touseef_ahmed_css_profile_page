@@ -6,7 +6,7 @@ Task 6 of my Bloomrix internship. No JavaScript is used.
 ## Files
 - index.html - the profile page
 - style.css - all the styling
-- images/ - profile photo, header background and list icon
+- images/ - profile photo, header, background, and list icon
 
 ## Inheritance examples
 1. The h1 and the tagline have no color rule. They are white because they inherit
