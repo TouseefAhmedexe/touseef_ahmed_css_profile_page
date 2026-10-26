@@ -76,3 +76,32 @@ p {
     font-size: 1.1rem;
     margin-bottom: 0;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #1b4db3;
+}
+
+a:visited {
+    color: #6a3fb5;
+}
+
+a:hover {
+    color: #d9480f;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #b3261e;
+}
+
+a[target="_blank"] {
+    font-weight: bold;
+}
+
+a[href^="mailto"] {
+    font-style: italic;
+}
