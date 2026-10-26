@@ -309,3 +309,17 @@ button[type="reset"] {
 button[type="reset"]:hover {
     background: #e8f0fe;
 }
+
+
+#page-footer {
+    background: radial-gradient(circle, #2f6fed, #0f2f73);
+    color: white;
+    font: italic 0.9rem/1.5 Georgia, serif;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    word-spacing: 3px;
+}
+
+#page-footer p {
+    margin: 0.25rem 0;
+}
