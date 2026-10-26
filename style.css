@@ -104,3 +104,42 @@ a[target="_blank"] {
 a[href^="mailto"] {
     font-style: italic;
 }
+
+
+#main-navigation {
+    background-color: #0f2f73;
+    padding: 0.75rem 0;
+    text-align: center;
+}
+
+#main-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#main-navigation li {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+nav a {
+    border-radius: 4px;
+    display: inline-block;
+    padding: 0.4rem 0.9rem;
+}
+
+nav a:link,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffd54f;
+}
+
+nav a:active {
+    background-color: rgba(255, 255, 255, 0.35);
+    color: white;
+}
