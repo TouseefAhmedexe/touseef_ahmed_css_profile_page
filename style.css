@@ -143,3 +143,28 @@ nav a:active {
     background-color: rgba(255, 255, 255, 0.35);
     color: white;
 }
+
+
+#main-content {
+    margin: 2rem auto;
+    max-width: 900px;
+    width: 80vw;
+}
+
+main > section {
+    background-color: white;
+    border: 1px solid #d0d7e2;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+}
+
+#about h2 + p {
+    font-size: 1.15rem;
+    text-indent: 2rem;
+}
+
+#about h2 ~ p {
+    text-align: justify;
+}
